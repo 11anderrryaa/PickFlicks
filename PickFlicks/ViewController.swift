@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  PickFlicks
 //
-//  Created by Paul Bunnell on 3/10/21.
+//  Created by Paul Bunnell on 3/10/21
 //
 
 import UIKit
@@ -13,7 +13,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print("Whatever i want")
+
         print("New thing")
+
+        print("Hello PickFlicks")
+
     }
 
 
