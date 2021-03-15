@@ -16,6 +16,8 @@
 		80C15C1025F9273600B31402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C15C0E25F9273600B31402 /* LaunchScreen.storyboard */; };
 		80C15C1B25F9273700B31402 /* PickFlicksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C15C1A25F9273700B31402 /* PickFlicksTests.swift */; };
 		80C15C2625F9273700B31402 /* PickFlicksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C15C2525F9273700B31402 /* PickFlicksUITests.swift */; };
+		83F173A225FA754F00E7EDA1 /* MovieSwipePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F173A125FA754F00E7EDA1 /* MovieSwipePicker.swift */; };
+		83F173D825FBBB9A00E7EDA1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F173D725FBBB9A00E7EDA1 /* Card.swift */; };
 		80C15C3825FA664200B31402 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C15C3725FA664200B31402 /* APIService.swift */; };
 		80C15C4125FA68D700B31402 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C15C4025FA68D700B31402 /* Movie.swift */; };
 		80C15C4C25FA6F9300B31402 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C15C4B25FA6F9300B31402 /* User.swift */; };
@@ -57,6 +59,8 @@
 		80C15C2125F9273700B31402 /* PickFlicksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickFlicksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C15C2525F9273700B31402 /* PickFlicksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickFlicksUITests.swift; sourceTree = "<group>"; };
 		80C15C2725F9273700B31402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F173A125FA754F00E7EDA1 /* MovieSwipePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSwipePicker.swift; sourceTree = "<group>"; };
+		83F173D725FBBB9A00E7EDA1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		80C15C3725FA664200B31402 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		80C15C4025FA68D700B31402 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		80C15C4B25FA6F9300B31402 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 				80C15C6025FBB6AC00B31402 /* HostViewController.swift */,
 				80C15C6925FBD60B00B31402 /* MovieDetailView.swift */,
 				80C15C0625F9272C00B31402 /* Main.storyboard */,
+				83F173A125FA754F00E7EDA1 /* MovieSwipePicker.swift */,
+				83F173D725FBBB9A00E7EDA1 /* Card.swift */,
 				80C15C0C25F9273600B31402 /* Assets.xcassets */,
 				80C15C0E25F9273600B31402 /* LaunchScreen.storyboard */,
 				80C15C1125F9273600B31402 /* Info.plist */,
@@ -297,7 +303,9 @@
 			files = (
 				80C15C6A25FBD60B00B31402 /* MovieDetailView.swift in Sources */,
 				80C15C0525F9272C00B31402 /* ViewController.swift in Sources */,
+				83F173D825FBBB9A00E7EDA1 /* Card.swift in Sources */,
 				80C15C0125F9272C00B31402 /* AppDelegate.swift in Sources */,
+				83F173A225FA754F00E7EDA1 /* MovieSwipePicker.swift in Sources */,
 				80C15C4125FA68D700B31402 /* Movie.swift in Sources */,
 				80C15C5125FA716200B31402 /* Group.swift in Sources */,
 				80C15C3825FA664200B31402 /* APIService.swift in Sources */,
