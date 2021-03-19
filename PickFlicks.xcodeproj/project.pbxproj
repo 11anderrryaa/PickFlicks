@@ -16,14 +16,15 @@
 		80C15C1025F9273600B31402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C15C0E25F9273600B31402 /* LaunchScreen.storyboard */; };
 		80C15C1B25F9273700B31402 /* PickFlicksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C15C1A25F9273700B31402 /* PickFlicksTests.swift */; };
 		80C15C2625F9273700B31402 /* PickFlicksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C15C2525F9273700B31402 /* PickFlicksUITests.swift */; };
-		83F173A225FA754F00E7EDA1 /* MovieSwipePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F173A125FA754F00E7EDA1 /* MovieSwipePicker.swift */; };
-		83F173D825FBBB9A00E7EDA1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F173D725FBBB9A00E7EDA1 /* Card.swift */; };
 		80C15C3825FA664200B31402 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C15C3725FA664200B31402 /* APIService.swift */; };
 		80C15C4125FA68D700B31402 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C15C4025FA68D700B31402 /* Movie.swift */; };
 		80C15C4C25FA6F9300B31402 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C15C4B25FA6F9300B31402 /* User.swift */; };
 		80C15C5125FA716200B31402 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C15C5025FA716200B31402 /* Group.swift */; };
 		80C15C6125FBB6AC00B31402 /* HostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C15C6025FBB6AC00B31402 /* HostViewController.swift */; };
 		80C15C6A25FBD60B00B31402 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C15C6925FBD60B00B31402 /* MovieDetailView.swift */; };
+		832375D226010A7100D5C065 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832375D126010A7100D5C065 /* CardView.swift */; };
+		83F173A225FA754F00E7EDA1 /* MovieSwipePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F173A125FA754F00E7EDA1 /* MovieSwipePicker.swift */; };
+		83F173D825FBBB9A00E7EDA1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F173D725FBBB9A00E7EDA1 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,14 +60,15 @@
 		80C15C2125F9273700B31402 /* PickFlicksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickFlicksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C15C2525F9273700B31402 /* PickFlicksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickFlicksUITests.swift; sourceTree = "<group>"; };
 		80C15C2725F9273700B31402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83F173A125FA754F00E7EDA1 /* MovieSwipePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSwipePicker.swift; sourceTree = "<group>"; };
-		83F173D725FBBB9A00E7EDA1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		80C15C3725FA664200B31402 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		80C15C4025FA68D700B31402 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		80C15C4B25FA6F9300B31402 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		80C15C5025FA716200B31402 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		80C15C6025FBB6AC00B31402 /* HostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostViewController.swift; sourceTree = "<group>"; };
 		80C15C6925FBD60B00B31402 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		832375D126010A7100D5C065 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		83F173A125FA754F00E7EDA1 /* MovieSwipePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSwipePicker.swift; sourceTree = "<group>"; };
+		83F173D725FBBB9A00E7EDA1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,8 @@
 		80C15BF425F9272C00B31402 = {
 			isa = PBXGroup;
 			children = (
+				80C15C0025F9272C00B31402 /* AppDelegate.swift */,
+				80C15C0225F9272C00B31402 /* SceneDelegate.swift */,
 				80C15BFF25F9272C00B31402 /* PickFlicks */,
 				80C15C1925F9273700B31402 /* PickFlicksTests */,
 				80C15C2425F9273700B31402 /* PickFlicksUITests */,
@@ -119,16 +123,14 @@
 			children = (
 				80C15C3F25FA68A400B31402 /* Models */,
 				80C15C3625FA662100B31402 /* API Services */,
-				80C15C0025F9272C00B31402 /* AppDelegate.swift */,
-				80C15C0225F9272C00B31402 /* SceneDelegate.swift */,
 				80C15C0425F9272C00B31402 /* ViewController.swift */,
 				80C15C6025FBB6AC00B31402 /* HostViewController.swift */,
 				80C15C6925FBD60B00B31402 /* MovieDetailView.swift */,
-				80C15C0625F9272C00B31402 /* Main.storyboard */,
 				83F173A125FA754F00E7EDA1 /* MovieSwipePicker.swift */,
-				83F173D725FBBB9A00E7EDA1 /* Card.swift */,
-				80C15C0C25F9273600B31402 /* Assets.xcassets */,
+				832375D126010A7100D5C065 /* CardView.swift */,
+				80C15C0625F9272C00B31402 /* Main.storyboard */,
 				80C15C0E25F9273600B31402 /* LaunchScreen.storyboard */,
+				80C15C0C25F9273600B31402 /* Assets.xcassets */,
 				80C15C1125F9273600B31402 /* Info.plist */,
 				80C15C0925F9272C00B31402 /* PickFlicks.xcdatamodeld */,
 			);
@@ -167,6 +169,7 @@
 				80C15C4025FA68D700B31402 /* Movie.swift */,
 				80C15C4B25FA6F9300B31402 /* User.swift */,
 				80C15C5025FA716200B31402 /* Group.swift */,
+				83F173D725FBBB9A00E7EDA1 /* Card.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				83F173A225FA754F00E7EDA1 /* MovieSwipePicker.swift in Sources */,
 				80C15C4125FA68D700B31402 /* Movie.swift in Sources */,
 				80C15C5125FA716200B31402 /* Group.swift in Sources */,
+				832375D226010A7100D5C065 /* CardView.swift in Sources */,
 				80C15C3825FA664200B31402 /* APIService.swift in Sources */,
 				80C15C6125FBB6AC00B31402 /* HostViewController.swift in Sources */,
 				80C15C0B25F9272C00B31402 /* PickFlicks.xcdatamodeld in Sources */,
@@ -489,12 +493,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4JU86BB9U;
 				INFOPLIST_FILE = PickFlicks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.PickFlicks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtech.PickFlicks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -507,12 +512,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4JU86BB9U;
 				INFOPLIST_FILE = PickFlicks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.PickFlicks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtech.PickFlicks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

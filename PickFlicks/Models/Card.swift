@@ -7,6 +7,9 @@
 
 import Foundation
 import UIKit
+
+
+
 struct Card: Identifiable {
     let id = UUID()
     let title : String
